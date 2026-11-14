@@ -1,9 +1,13 @@
-%***************************************************************************************************
-% preamble/links.tex - hiperłącza i metadane PDF. Ładowany jako OSTATNI element preambuły.
-%***************************************************************************************************
+% Hiperłącza i metadane PDF (ładowany jako ostatni element preambuły).
 
 \usepackage[unicode=true, pdfencoding=auto, pdflang={pl-PL}]{hyperref}
 \urlstyle{same}
+
+\pdfstringdefDisableCommands{%
+  \def\code#1{\ReportPdfString{#1}}%
+  \def\hash#1{\ReportPdfString{#1}}%
+  \def\latexcmd#1{\textbackslash #1}%
+}
 
 \hypersetup{
   pdftitle   = {\DocTitle},
@@ -11,7 +15,6 @@
   pdfsubject = {\Subject},
 }
 
-% Wersja ekranowa: kolorowe odnośniki; wersja do druku (config/metadata.tex): bez ramek i kolorów
 \ifprintversion
   \hypersetup{hidelinks}
 \else

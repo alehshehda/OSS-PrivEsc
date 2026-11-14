@@ -1,34 +1,41 @@
-# LaTeX build and auxiliary files
+# Pliki pomocnicze i wyjściowe LaTeX / BibTeX / latexmk
 *.aux
 *.bbl
 *.blg
+*.bcf
 *.dvi
 *.fdb_latexmk
 *.fls
+*.glo
+*.gls
+*.glg
 *.idx
 *.ilg
 *.ind
+*.ist
+*.loa
 *.lof
 *.log
 *.lol
 *.lot
 *.nav
 *.out
-*.pdf
+*.ps
+*.run.xml
 *.snm
+*.synctex
 *.synctex.gz
+*.synctex(busy)
+*.thm
 *.toc
 *.vrb
+*.xdv
 
-# Keep compiled PDFs only if explicitly placed in specific folders (none by default)
-# !images/**/*.pdf
+# Skompilowane PDF-y w katalogu głównym (nie ignoruje grafik w images/ i appendices/)
+/*.pdf
 
-# OS and editor files
+# Pliki systemowe i tymczasowe
 .DS_Store
 Thumbs.db
-desktop.ini
-*.swp
-*.swo
+*.bak
 *~
-.vscode/
-.idea/

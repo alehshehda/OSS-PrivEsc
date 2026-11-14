@@ -1,9 +1,9 @@
-# OSS-PrivEsc-project - Project Documentation
+# OSS-PrivEsc - Project Documentation
 
-[![View PDF](https://img.shields.io/badge/View-PDF-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://alehshehda.github.io/OSS-PrivEsc-project/OSS-PrivEsc-project.pdf)
-[![Download PDF](https://img.shields.io/badge/Download-PDF-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alehshehda/OSS-PrivEsc-project/releases/download/latest/OSS-PrivEsc-project.pdf)
+[![View PDF](https://img.shields.io/badge/View-PDF-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://alehshehda.github.io/OSS-PrivEsc/OSS-PrivEsc.pdf)
+[![Download PDF](https://img.shields.io/badge/Download-PDF-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alehshehda/OSS-PrivEsc/releases/download/latest/OSS-PrivEsc.pdf)
 
-Comprehensive technical documentation and case-study write-ups for **Privilege Escalation and System Password Database Protection** (*Eskalacja uprawnień a ochrona systemowej bazy haseł*), examining how local privilege escalation vectors affect access to `/etc/passwd` and `/etc/shadow` in Linux environments and how to mitigate them.
+Technical documentation and case-study write-ups for **Privilege Escalation and System Password Database Protection** (*Eskalacja uprawnień a ochrona systemowej bazy haseł*), examining how local privilege escalation vectors affect access to `/etc/passwd` and `/etc/shadow` in Linux environments and how to mitigate them.
 
 ---
 
@@ -33,10 +33,10 @@ Project developed for the **Operating Systems Security** (*Ochrona Systemów Ope
 
 ```text
 ├── main.tex                                     # Master LaTeX document
-├── .github/workflows/build-pdf.yml              # Automated PDF compilation CI pipeline
+├── .github/workflows/compile.yml                # Automated PDF compilation CI pipeline
 ├── config/                                      # Metadata, title, theme, and optional section toggles
 ├── preamble/                                    # Typography, macros, tables, listings, and styling
-├── frontmatter/                                 # Title page, abstract, and abbreviations list
+├── frontmatter/                                 # Title page and abbreviations list
 ├── chapters/
 │   ├── 1_wstep.tex                              # Introduction, problem statement, and methodology
 │   ├── 2_podstawy_teoretyczne.tex               # Privilege model, password database, and defenses
@@ -54,4 +54,4 @@ Project developed for the **Operating Systems Security** (*Ochrona Systemów Ope
 
 ## Compilation
 
-The document is automatically compiled to **`OSS-PrivEsc-project.pdf`** via the GitHub Actions CI pipeline (`.github/workflows/build-pdf.yml`) on every push to `main`.
+The document is automatically compiled to **`OSS-PrivEsc.pdf`** via the GitHub Actions CI pipeline (`.github/workflows/compile.yml`) on every push to `main`.
