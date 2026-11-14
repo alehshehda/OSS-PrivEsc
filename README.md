@@ -1,6 +1,7 @@
 # OSS-PrivEsc-project - Project Documentation
 
-[![Build LaTeX Report](https://github.com/alehshehda/OSS-PrivEsc-project/actions/workflows/build-pdf.yml/badge.svg)](https://github.com/alehshehda/OSS-PrivEsc-project/actions/workflows/build-pdf.yml)
+[![View PDF](https://img.shields.io/badge/View-PDF-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://alehshehda.github.io/OSS-PrivEsc-project/OSS-PrivEsc-project.pdf)
+[![Download PDF](https://img.shields.io/badge/Download-PDF-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alehshehda/OSS-PrivEsc-project/releases/download/latest/OSS-PrivEsc-project.pdf)
 
 Comprehensive technical documentation and case-study write-ups for **Privilege Escalation and System Password Database Protection** (*Eskalacja uprawnień a ochrona systemowej bazy haseł*), examining how local privilege escalation vectors affect access to `/etc/passwd` and `/etc/shadow` in Linux environments and how to mitigate them.
 
@@ -53,10 +54,4 @@ Project developed for the **Operating Systems Security** (*Ochrona Systemów Ope
 
 ## Compilation
 
-The document is automatically compiled to **`OSS-PrivEsc-project.pdf`** via the GitHub Actions CI pipeline (`.github/workflows/build-pdf.yml`) on every push and pull request to `main`/`master` (or via manual `workflow_dispatch`), and published as a workflow build artifact.
-
-To compile locally:
-
-```bash
-latexmk -pdf -bibtex -interaction=nonstopmode -halt-on-error -jobname=OSS-PrivEsc-project main.tex
-```
+The document is automatically compiled to **`OSS-PrivEsc-project.pdf`** via the GitHub Actions CI pipeline (`.github/workflows/build-pdf.yml`) on every push to `main`.
