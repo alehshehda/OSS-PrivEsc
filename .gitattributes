@@ -1,0 +1,20 @@
+# Auto-detect text files and normalize line endings to LF
+* text=auto eol=lf
+
+# TeX and documentation sources
+*.tex text diff=tex
+*.bib text
+*.bst text
+*.md text
+*.yml text
+*.yaml text
+.gitignore text
+.gitattributes text
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.eps binary
