@@ -3,7 +3,7 @@
 [![View PDF](https://img.shields.io/badge/View-PDF-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://alehshehda.github.io/OSS-PrivEsc/OSS-PrivEsc.pdf)
 [![Download PDF](https://img.shields.io/badge/Download-PDF-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alehshehda/OSS-PrivEsc/releases/download/latest/OSS-PrivEsc.pdf)
 
-Technical documentation and case-study write-ups for **Privilege Escalation and System Password Database Protection** (*Eskalacja uprawnień a ochrona systemowej bazy haseł*), examining how local privilege escalation vectors affect access to `/etc/passwd` and `/etc/shadow` in Linux environments and how to mitigate them.
+Technical documentation and case-study write-ups for **Privilege Escalation and System Password Database Protection in Linux** (*Eskalacja uprawnień a ochrona systemowej bazy haseł w systemach Linux*), examining how local privilege escalation vectors affect access to `/etc/passwd` and `/etc/shadow` in Linux environments and how to mitigate them.
 
 ---
 
@@ -18,7 +18,7 @@ Technical documentation and case-study write-ups for **Privilege Escalation and 
 
 ## Course & Authors
 
-Project developed for the **Operating Systems Security** (*Ochrona Systemów Operacyjnych*) course at **Wrocław University of Science and Technology** (WUST / PWr), Faculty of Information and Communication Technology (Cybersecurity), **Group 2**.
+Project developed for the **Operating Systems Security** (*Ochrona Systemów Operacyjnych*) course at **Wrocław University of Science and Technology** (WUST / PWr), Faculty of Information and Communication Technology (Cybersecurity), **Group 4**.
 
 | Author | Assigned Case Study | Vector |
 | :--- | :--- | :--- |
